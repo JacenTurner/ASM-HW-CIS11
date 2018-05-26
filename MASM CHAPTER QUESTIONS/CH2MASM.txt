@@ -1,0 +1,49 @@
+2.1.5 Review
+
+1. The CPU contains registers, a high-frequency clock, a Control Unit, and an Arithmetic Logic Unit.
+
+2. The CPU is connected to the rest of the computer through the Data Bus, the Control Bus, and the Address Bus.
+
+3. Memory access takes more clock cycles than register access because in order to access memory, there is an additional set of steps that must be followed rather then pulling directly from the registers.
+
+4. The three basic steps of the instruction execution cycle are Fetch, Decode, and Execute in that order.
+
+5. The two additional steps are the changing of the RD pin, and waiting one cycle for memory to respond.
+
+
+
+2.4.3 Review
+
+5. The 8259A PIC takes external interrupts from user hardware and input devices.
+
+
+2.5.2 Review
+
+1. Of the four levels of input/output in a computer system, Level 3 or the Application Program is the most portable.
+
+3. Device drivers are able to provide more explicit and precise instruction over basic input/output.
+
+4. The BIOS subroutine lies between direct communication from the hardware level to the operating system.
+
+5. The BIOS for both the Windows and Linux computers would be the same.
+
+
+2.8 Review
+
+7. The ALU performs floating point arithmetic on the CPU
+
+8. 80 bits are contained in each floating point data register
+
+9. True, x86_64 is a backwards compatible instruction set
+
+10. False, only 48 bits are used for addressing due to page file limitations
+
+12. False, SRAM is more expensive than DRAM
+
+19. False, a bus is not a cable
+
+20. True, CMOS RAM holds its value without any extra power or refresh cycles because it has its own external power source
+
+25. Assembly language directly manipulates input/output at the OS, BIOS, and hardware levels.
+
+26. Games no longer directly access hardware.

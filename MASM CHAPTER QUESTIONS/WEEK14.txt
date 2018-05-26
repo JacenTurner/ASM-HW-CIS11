@@ -1,0 +1,25 @@
+1. Overall the boolean calculator and array shifting assignments probably took the most time, but I found myself really struggling on anything with the hands on coding exercises.
+
+2. All of the later coding exercises beyond week 8 were difficult, but the most difficult I think was the boolean calculator.
+
+3. The easiest assignment was the Print Character at Random Locations assignment.
+
+4. I am still struggling the concept of the call stack and its purposes, as well as arrays.
+
+5. Given an extra week I think I would benefit the most from a more rounded understanding of how to use the call stack properly as I didn't really use it for any assignments.
+
+6. Boolean Calculator felt like way too much work
+
+7. Favorite assignment was the chapter questions because reading the book helped me understand a lot of the concepts and terminology
+
+8. Again I feel I learned the most from chapter questions becuase the book was so well written
+
+9. The assignment requirements at times were a bit fuzzy but I feel that I understood them for the most part, due dates were crystal clear.
+
+10. On a scale from 1-5 of difficulty I would rank this class a solid 4. While I understood a lot of the quirks of ASM and the instructions/operands, I was never able to fluently write the code in a way I felt comfortable with.
+
+11. The book for the course was flawless, I found myself using it at every turn due to it's extremely helpful guidance and documentation.
+
+12. I would have liked to see the more practical implementation of assembly language and what it can be practically applied to.
+
+13. A course like this seems to be mainly up to how the students choose to solve the problems given to them, and for the less creative students it can be incredibly difficult like it was for me. If there was a better way to ease into the transition between being comfortable with higher-level languages to being thrown in the muck-filled mustard gas lined trench that is the assembly language I would like to see that improved.

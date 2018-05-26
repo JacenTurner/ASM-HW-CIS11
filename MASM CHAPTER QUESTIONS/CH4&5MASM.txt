@@ -1,0 +1,44 @@
+4.2.8 Review
+
+1. [ INC val2 ] instruction that increments val2
+
+2. [ SUB EAX,val3 ] instruction that subtracts val3 from EAX
+
+3. [mov ax,val2
+    sub ax,val4 ] instructions that remove val4 from val2
+
+4. CF = 0, SF = 0
+
+5. OF = 0, SF = 1
+
+6. A. CF = 0  SF = 0  ZF = 1  OF = 0
+   B. CF = 1  SF = 0  ZF = 1  OF = 0
+   C. CF = 0  SF = 1  ZF = 0  OF = 1
+
+
+
+
+4.3.8 Review
+
+1. False, the OFFSET operator returns the distance of a label from the beginning of the data segment
+
+2. False, PTR allows user to override size constraints of operands
+
+3. True, TYPE operator returns a value of 4 for DWORD operands
+
+4. False, LENGTHOF returns the number of elements in an array
+
+5. True, SIZEOF returns the number of bytes in an operand
+
+
+
+4.4.5 Review
+
+4. True, array[esi] is an indexed array
+
+5. A. AL = 10h
+   B. AL = 30h
+   C. AX = 3Bh
+   D. EDX = 3
+   E. EDX = 3
+   F. EAX = 2

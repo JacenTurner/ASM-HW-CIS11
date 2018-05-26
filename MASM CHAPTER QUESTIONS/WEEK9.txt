@@ -1,0 +1,22 @@
+1. The "Stack Frame" is where all of the data is stored for call and return of PROCs including variables and registers.
+
+2. According to wikipedia, a "Calling Convention" is a low level scheme for how subroutines recieve parameters from their caller, and how they return a result.
+
+3. By starting functions with push ebp and mov ebp,esp you readily have the previous frame's pointers available.
+
+4. Firstly, Microsoft x86_64 is used in Windows  and pre-boot UEFI, and has a few minor differences to System V AMD64 ABI including the requirement to manually create "shadow space" on the call stack as well as having volatile and nonvolatile registers.
+
+5. int a would be in RCX, int b in RDX, c in R8, d  in R9, e and f would be pushed onto the stack.
+
+6. :        :
+    |   f    | [ebp + 28]
+    |   e   | [ebp + 24]
+    |   d   | [ebp + 20]
+    |   c   | [ebp + 16]
+    |   b   | [ebp + 12]
+    |   a   | [ebp + 8]
+    |  RA | [ebp + 4]
+    |  FP | ebp
+    :       : 
+    :       :
+    |       | [ebp - x]

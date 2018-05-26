@@ -1,0 +1,22 @@
+WriteChar format
+
+mov al,'A'
+call WriteChar
+
+
+GetMaxXY format
+
+.data
+rows BYTE ?
+cols BYTE ?
+.code
+call GetMaxXY
+mov rows,al
+mov cols,dl
+
+
+
+Delay format
+
+mov eax,1000  ; 1000 ms is 1 second
+call Delay

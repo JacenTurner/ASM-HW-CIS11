@@ -1,0 +1,80 @@
+3.1.11 Review
+
+1. -35d, ddh, 335o, 11011101b
+
+2. No, A5h is not a valid hex literal, requires a 0 before the letter.
+
+3. No, by order of operations they (* , /) are equal
+
+4. (6 + 3) / (9 - 2) * 3 MOD 5 = 3
+
+
+
+3.2.4 Review
+
+4. In the ADDTWO.ASM program the EAX register holds the sum.
+
+5. The "END main" instruction halts the program.
+
+
+
+
+3.3.3 Review
+
+1. The assembler produces .obj or object files.
+
+2. True, the linker includes assembled procedures from the link library.
+
+3. True, if a program's source is modified it must be recompiled before it is able to execute with the changes.
+
+4. The Operating System's LOADER utility reads the program into memory and executes it.
+
+
+
+3.4.13 Review
+
+1. [ example SWORD ? ] uninitialized 16 bit signed integer
+
+2. [ example BYTE ? ] uninitialized 8 bit unsigned integer
+
+3. [ example SBYTE ? ] uninitialized 8 bit signed integer
+
+4. [ example QWORD ? ] uninitialized 64 bit integer
+
+5. DWORD and SDWORD are data types that can hold a 32 bit integer
+
+
+3.5.5 Review
+
+3. [ myArray DWORD 20 DUP(?)
+	ArraySize = ($ - myArray) /2 ] example code
+
+
+
+3.9.1 Short Answer
+
+4. The term Assembler Language isn't quite correct because the Assembler is the method of translating written Assembly code to machine language.
+
+5. The difference between Big-endian and little-endian is what data goes where. In big-endian the largest data is stored first, where the opposite is true for little-endian.
+
+6. Symbolic Constants are much easier to use than Integer Literals because you only have to edit one integer to make a change in multiple areas of the program rather than trying to find and edit each integer literal.
+
+25. SDWORD creates a 32 bit signed integer
+
+
+3.9.2 Algorithm Workbench
+
+4. Yes it's possible to assign a negative integer to DWORD, the assembler does not consider the numbers sign
+
+7. exampleArray DWORD 120 DUP(?)
+
+13. exampleArray BYTE 500 DUP("TEST")
+
+
+
+
+
+
+
+
+ 
